@@ -1,0 +1,23 @@
+; CHARMM36m (charmm36-jul2021, official port), converted from the Amber14sb system (same coordinates)
+#include "charmm36-jul2021.ff/forcefield.itp"
+#include "prot_Protein_chain_A.itp"
+#include "prot_Protein_chain_B.itp"
+#include "prot_Protein_chain_C.itp"
+#include "prot_Protein_chain_D.itp"
+#include "POPC_c36.itp"
+#include "charmm36-jul2021.ff/tip3p.itp"
+#include "charmm36-jul2021.ff/ions.itp"
+
+[ system ]
+C36G
+
+[ molecules ]
+Protein_chain_A      1
+Protein_chain_B      1
+Protein_chain_C      1
+Protein_chain_D      1
+POPC                 234
+SOL                  14946
+POT                  138
+CLA                  137
+POT                  3

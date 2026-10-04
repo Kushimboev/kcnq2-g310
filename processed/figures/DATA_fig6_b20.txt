@@ -1,0 +1,21 @@
+FIG_6 (b20) | matched pooled ECC 2/840.0 ns vs full 23/1217.8 ns -> ratio 0.126 (0.014-0.510), p=3.24e-04, suppression x7.9
+all-ECC incl. K10: 4/1120.0 ns vs 23/1217.8 -> 0.189 (0.048-0.553), p=3.41e-04, x5.3
+KCNQ1 benchmark (KNE r1+r2): 11/553.3 ns -> G = 5.64 pS
+filter occupancy: ECC 3 ions 97% (2 ions 3%); full 2 ions 88% (3 ions 12%)
+panel C AN   d1(narrow,b20) 8.281 | 1/560.0 ns = 1.8/us
+panel C A9   d1(narrow,b20) 8.941 | 7/280.0 ns = 25.0/us
+panel C KN   d1(narrow,b20) 8.204 | 1/280.0 ns = 3.6/us
+panel C K10  d1(narrow,b20) 9.886 | 2/280.0 ns = 7.1/us
+panel C ANE  d1(narrow,b20) 8.388 | 12/664.5 ns = 18.1/us
+panel C KNE  d1(narrow,b20) 8.370 | 11/553.3 ns = 19.9/us
+A9 - ANE shift 0.553 A ; K10 - KNE shift 1.516 A
+run AN_r1   net +1 in 280.0 ns
+run AN_r2   net +0 in 280.0 ns
+run KN_r1   net +1 in 280.0 ns
+run K10_r1  net +2 in 280.0 ns
+run A9_r1   net +7 in 280.0 ns
+run ANE_r1  net +5 in 280.0 ns
+run ANE_r2  net +5 in 280.0 ns
+run ANE_r3  net +2 in 104.5 ns
+run KNE_r1  net +8 in 280.0 ns
+run KNE_r2  net +3 in 273.3 ns

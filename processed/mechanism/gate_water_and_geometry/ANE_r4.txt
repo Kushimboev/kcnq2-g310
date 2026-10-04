@@ -1,0 +1,1 @@
+ANE_r4	n=281	t=20-300ns	d1=8.45±0.33	d2=9.06	310CA_R=4.47	OG_R=nan	gate_water=8.85±1.71	cav_water=23.6±2.0	cav_K_mean=0.053	cav_K_frames=5.3%	below_gate_K_frames=17.1%	zg=-2.03nm

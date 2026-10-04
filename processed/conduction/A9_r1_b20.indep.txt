@@ -1,0 +1,18 @@
+#### A9_r1_b20: 28001 frames, 280.0 ns, Lz 9.035 nm, V 565 mV, gate plane z -2.18 nm, d1/d2 8.92/9.06 A
+  net crossings gate          : free +7  KSF +0  total +7   (G_free 7.09 pS, G_all 7.09 pS)
+  net crossings SF_low(-0.8)  : free +7  KSF +0  total +7   (G_free 7.09 pS, G_all 7.09 pS)
+  net crossings SF_mid(0)     : free +0  KSF +2  total +2   (G_free 0.00 pS, G_all 2.03 pS)
+  net crossings SF_top(+0.45) : free +3  KSF +3  total +6   (G_free 3.04 pS, G_all 6.08 pS)
+  exits to OUT(z>+1.2) after SF: free 4 (FULL IN->CAV->SF->OUT in window: 4; pre-positioned/partial: 0), KSF 3
+     t_out   43.61 ns  ion  138 KSF  start=SF    full=False  t_leftIN=None
+     t_out   63.45 ns  ion  139 KSF  start=SF    full=False  t_leftIN=None
+     t_out  120.80 ns  ion  140 KSF  start=SF    full=False  t_leftIN=None
+     t_out  163.46 ns  ion   73 free  start=OUT   full=True  t_leftIN=35.04
+     t_out  174.12 ns  ion   92 free  start=OUT   full=True  t_leftIN=53.620000000000005
+     t_out  195.51 ns  ion   74 free  start=IN    full=True  t_leftIN=111.16999999999999
+     t_out  241.48 ns  ion  105 free  start=OUT   full=True  t_leftIN=143.81
+  G(full-only) = 4.05 pS
+  SF occupancy: first 5 ns 3.00, 5-50 ns 3.00, 50 ns-end 3.00; cavity: first 5 ns 0.00, rest 0.15
+  ions in SF/CAV at t=0: [(138, 'SF', 0.06), (139, 'SF', -0.27), (140, 'SF', -0.65)]
+  SF_mid free net per 50-ns block: [0, 0, 1, 2, -2, -1]
+  gate  free net per 50-ns block: [1, 1, 2, 2, 1, 0]

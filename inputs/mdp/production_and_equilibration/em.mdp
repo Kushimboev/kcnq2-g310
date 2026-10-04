@@ -1,0 +1,17 @@
+; EM, protein heavy + lipid P(z) restraints
+define = -DPOSRES -DPOSRES_LIPID
+integrator = steep
+emtol = 1000
+emstep = 0.01
+nsteps = 50000
+cutoff-scheme = Verlet
+nstlist = 20
+pbc = xyz
+coulombtype = PME
+rcoulomb = 1.0
+vdwtype = Cut-off
+vdw-modifier = None
+rvdw = 1.0
+DispCorr = EnerPres
+constraints = h-bonds
+constraint-algorithm = LINCS

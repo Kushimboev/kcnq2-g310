@@ -1,0 +1,1 @@
+GS_r1	frames_rows=6214	gate_plane_samples=58	nW35_gate=3.78±0.62	nW30_gate=3.14±0.82	nOG_gate=2.05±0.63	nProtO_gate=0.76±0.43	bulk_nW35=6.77±1.00 (n 49430)

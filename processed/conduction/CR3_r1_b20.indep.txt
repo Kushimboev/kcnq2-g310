@@ -1,0 +1,11 @@
+#### CR3_r1_b20: 28001 frames, 280.0 ns, Lz 8.991 nm, V 565 mV, gate plane z -2.14 nm, d1/d2 7.42/7.85 A
+  net crossings gate          : free -1  KSF +0  total -1   (G_free -1.01 pS, G_all -1.01 pS)
+  net crossings SF_low(-0.8)  : free -1  KSF +0  total -1   (G_free -1.01 pS, G_all -1.01 pS)
+  net crossings SF_mid(0)     : free -1  KSF +0  total -1   (G_free -1.01 pS, G_all -1.01 pS)
+  net crossings SF_top(+0.45) : free -1  KSF +0  total -1   (G_free -1.01 pS, G_all -1.01 pS)
+  exits to OUT(z>+1.2) after SF: free 0 (FULL IN->CAV->SF->OUT in window: 0; pre-positioned/partial: 0), KSF 0
+  G(full-only) = 0.00 pS
+  SF occupancy: first 5 ns 2.00, 5-50 ns 2.00, 50 ns-end 2.13; cavity: first 5 ns 0.00, rest 0.72
+  ions in SF/CAV at t=0: [(89, 'SF', 0.0), (104, 'SF', -0.38)]
+  SF_mid free net per 50-ns block: [0, -1, 0, 0, 0, 0]
+  gate  free net per 50-ns block: [0, 0, 0, 0, 0, -1]

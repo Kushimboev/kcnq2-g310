@@ -1,0 +1,16 @@
+#### ANE_r2_b20: 28001 frames, 280.0 ns, Lz 9.008 nm, V 565 mV, gate plane z -2.17 nm, d1/d2 8.32/9.07 A
+  net crossings gate          : free +5  KSF +0  total +5   (G_free 5.06 pS, G_all 5.06 pS)
+  net crossings SF_low(-0.8)  : free +5  KSF +0  total +5   (G_free 5.06 pS, G_all 5.06 pS)
+  net crossings SF_mid(0)     : free +4  KSF +0  total +4   (G_free 4.05 pS, G_all 4.05 pS)
+  net crossings SF_top(+0.45) : free +2  KSF -1  total +1   (G_free 2.03 pS, G_all 1.01 pS)
+  exits to OUT(z>+1.2) after SF: free 4 (FULL IN->CAV->SF->OUT in window: 3; pre-positioned/partial: 1), KSF 1
+     t_out  112.97 ns  ion  140 KSF  start=SF    full=False  t_leftIN=None
+     t_out  155.06 ns  ion  132 free  start=SF    full=False  t_leftIN=None
+     t_out  201.95 ns  ion   20 free  start=other full=True  t_leftIN=43.57
+     t_out  264.37 ns  ion   68 free  start=OUT   full=True  t_leftIN=112.30000000000001
+     t_out  268.11 ns  ion   66 free  start=OUT   full=True  t_leftIN=138.32
+  G(full-only) = 3.04 pS
+  SF occupancy: first 5 ns 2.00, 5-50 ns 2.04, 50 ns-end 2.09; cavity: first 5 ns 0.00, rest 0.17
+  ions in SF/CAV at t=0: [(132, 'SF', -0.31), (140, 'SF', 0.07)]
+  SF_mid free net per 50-ns block: [0, 0, 2, 1, 1, 0]
+  gate  free net per 50-ns block: [1, 0, 2, 1, 1, 0]

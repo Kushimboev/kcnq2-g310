@@ -1,0 +1,46 @@
+#### KN_r1: 300.0 ns; SF visits 36
+   CAV->SF->OUT (conduction)                          free   0  KSF  0
+   OUT->SF->CAV (reverse)                             free   0  KSF  0
+   t0 ->SF->OUT (pre-loaded exits)                    free   1  KSF  0
+   CAV->SF->end (entered from cavity, still inside)   free   1  KSF  0
+   OUT->SF->end (entered from outside, still inside)  free   0  KSF  0
+   OUT->SF->OUT (outside flicker)                     free  32  KSF  0
+   CAV->SF->CAV (bounced back)                        free   0  KSF  0
+   t0 ->SF->end (never left)                          free   0  KSF  2
+   t0 ->SF->CAV                                       free   0  KSF  0
+   entries from cavity 1, from outside 32; exits to outside 33, to cavity 0
+   NET outward charge through SF (exits_top - entries_top) = 1   | (entries_bottom - exits_bottom) = 1
+   SF occupancy mean 2.87 (t<5ns 2.03); occupancy histogram 2:14% 3:85% 4:1%
+      ion  120 free in SF    1.54-   2.49 ns  came ?    went OUT
+      ion   47 free in SF   10.73-  12.39 ns  came OUT  went OUT
+      ion   49 free in SF   14.28-  46.38 ns  came OUT  went OUT
+      ion   44 free in SF   58.20-  58.80 ns  came OUT  went OUT
+      ion  120 free in SF   65.88-  67.97 ns  came OUT  went OUT
+      ion   30 free in SF   72.86-  74.15 ns  came OUT  went OUT
+      ion  111 free in SF   79.65-  81.93 ns  came OUT  went OUT
+      ion   17 free in SF   89.08-  89.08 ns  came OUT  went OUT
+      ion   30 free in SF   93.17- 102.29 ns  came OUT  went OUT
+      ion   87 free in SF  120.24- 125.29 ns  came OUT  went OUT
+      ion   37 free in SF  128.27- 128.85 ns  came OUT  went OUT
+      ion   37 free in SF  134.84- 135.00 ns  came OUT  went OUT
+      ion   37 free in SF  137.47- 137.47 ns  came OUT  went OUT
+      ion  115 free in SF  143.44- 150.46 ns  came OUT  went OUT
+      ion  158 free in SF  153.61- 156.70 ns  came OUT  went OUT
+      ion   83 free in SF  163.18- 163.18 ns  came OUT  went OUT
+      ion  158 free in SF  166.86- 166.86 ns  came OUT  went OUT
+      ion   69 free in SF  172.42- 175.97 ns  came OUT  went OUT
+      ion   37 free in SF  177.21- 177.23 ns  came OUT  went OUT
+      ion   37 free in SF  186.25- 191.04 ns  came OUT  went OUT
+      ion   69 free in SF  199.49- 204.22 ns  came OUT  went OUT
+      ion  118 free in SF  208.88- 213.36 ns  came OUT  went OUT
+      ion   67 free in SF  215.62- 217.43 ns  came OUT  went OUT
+      ion  146 free in SF  219.95- 220.13 ns  came OUT  went OUT
+      ion   54 free in SF  225.18- 225.18 ns  came OUT  went OUT
+      ion   54 free in SF  236.68- 245.05 ns  came OUT  went OUT
+      ion   79 free in SF  246.63- 252.25 ns  came OUT  went OUT
+      ion   32 free in SF  265.78- 268.16 ns  came OUT  went OUT
+      ion  143 free in SF  274.12- 277.89 ns  came OUT  went OUT
+      ion  100 free in SF  280.36- 281.55 ns  came OUT  went OUT
+      ion   26 free in SF  283.13- 289.08 ns  came OUT  went OUT
+      ion   44 free in SF  292.67- 294.84 ns  came OUT  went OUT
+      ion   73 free in SF  295.69- 296.91 ns  came OUT  went OUT

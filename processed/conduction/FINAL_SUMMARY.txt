@@ -1,0 +1,28 @@
+# FINAL SUMMARY — 2026-09-26 02:17:41; estimator: net charge through the selectivity filter, first 20 ns discarded
+
+## WT (ANE) (565 mV)
+   ANE_r1     5 /  280.0 ns  G  5.06 pS
+   ANE_r2     5 /  280.0 ns  G  5.06 pS
+   ANE_r4     4 /  280.0 ns  G  4.05 pS
+   ANE_r5     3 /  280.0 ns  G  3.04 pS
+   POOLED 17 / 1120.0 ns -> G 4.30 pS (95 % 2.51-6.89); replica mean 4.30 +- 0.48 SE
+## G310S (GS) (565 mV)
+   GS_r1      0 /  280.0 ns  G  0.00 pS
+   GS_r2      2 /  280.0 ns  G  2.03 pS
+   GS_r3      0 /  280.0 ns  G  0.00 pS
+   POOLED 2 / 840.0 ns -> G 0.68 pS (95 % 0.08-2.44); replica mean 0.68 +- 0.68 SE
+   GS/WT = 0.16 (95 % 0.02-0.66), one-sided p = 0.003; G310S replicas 3/3 -> rule: permeation IMPAIRED (the Mkrtchyan hypothesis)
+## CR3 (7CR3 closed pore) (565 mV)
+   CR3_r1     0 /  280.0 ns  G  0.00 pS
+   CR3_r2     0 /  280.0 ns  G  0.00 pS
+   POOLED 0 / 560.0 ns -> G 0.00 pS (95 % 0.00-1.87); replica mean 0.00 +- 0.00 SE
+   CR3 total net charge 0 (2/2 replicas) -> rule: specificity CONFIRMED (<= 1)
+## ANC (G310 7.6 A) (565 mV)
+   ANC_r1     1 /  280.0 ns  G  1.01 pS
+   POOLED 1 / 280.0 ns -> G 1.01 pS (95 % 0.03-5.64); replica mean 1.01 +- nan SE
+## V280 (I-V) (282 mV)
+   V280_r1    2 /  280.0 ns  G  4.06 pS
+   V280_r2    0 /  280.0 ns  G  0.00 pS
+   V280_r3    1 /  280.0 ns  G  2.03 pS
+   POOLED 3 / 840.0 ns -> G 2.03 pS (95 % 0.42-5.93); replica mean 2.03 +- 1.17 SE
+   G(282)/G(565) = 0.47 (95 % 0.09-1.63); V280 replicas 3/3 -> the 95 % interval includes 1: no deviation from ohmic behaviour detected

@@ -1,0 +1,6 @@
+# Independent check: axis = centre of the G310 CA atoms (primary: filter CA atoms), frames at 21, 23, ... ns (primary: 20, 21, ... ns)
+WT  9.02 ± 0.24 (n4; primary 8.73 ± 0.24)
+GS  4.80 ± 0.08 (n3; primary 4.73 ± 0.12)
+H1  8.02 (8.27, 7.76) -> f = 0.24 (95 % 0.09-0.38)   | primary: 0.22 (0.13-0.32)
+H2  6.47 (6.91, 6.04) -> f = 0.60 (95 % 0.39-0.81)   | primary: 0.58 (0.37-0.78)
+Composition checked: H1 = SER,GLY,GLY,GLY (chain A); H2 = SER,SER,GLY,GLY (A+B), SER-SER CA 6.4-6.6 A -> adjacent (the diagonal is ~8.3 A).

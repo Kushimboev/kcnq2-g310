@@ -1,0 +1,17 @@
+#### ANE_r4_b20: 280.0 ns; SF visits 7
+   CAV->SF->OUT (conduction)                          free   2  KSF  0
+   OUT->SF->CAV (reverse)                             free   0  KSF  0
+   t0 ->SF->OUT (pre-loaded exits)                    free   1  KSF  1
+   CAV->SF->end (entered from cavity, still inside)   free   3  KSF  0
+   OUT->SF->end (entered from outside, still inside)  free   0  KSF  0
+   OUT->SF->OUT (outside flicker)                     free   0  KSF  0
+   CAV->SF->CAV (bounced back)                        free   0  KSF  0
+   t0 ->SF->end (never left)                          free   0  KSF  0
+   t0 ->SF->CAV                                       free   0  KSF  0
+   entries from cavity 5, from outside 0; exits to outside 4, to cavity 0
+   NET outward charge through SF (exits_top - entries_top) = 4   | (entries_bottom - exits_bottom) = 5
+   SF occupancy mean 2.10 (t<5ns 2.00); occupancy histogram 2:90% 3:10%
+      ion  132 free in SF    0.00- 174.23 ns  came t0   went OUT
+      ion  140 KSF  in SF    0.00- 102.44 ns  came t0   went OUT
+      ion   23 free in SF   96.79- 205.94 ns  came CAV  went OUT
+      ion  106 free in SF  165.67- 252.97 ns  came CAV  went OUT

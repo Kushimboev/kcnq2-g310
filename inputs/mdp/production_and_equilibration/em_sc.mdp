@@ -1,0 +1,27 @@
+; soft-core EM: POPC-POPC and POPC-rest LJ/Coulomb at lambda 0.5 with soft-core -> removes packmol overlaps
+define = -DPOSRES -DPOSRES_LIPID
+integrator = steep
+emtol = 1000
+emstep = 0.01
+nsteps = 5000
+cutoff-scheme = Verlet
+nstlist = 20
+pbc = xyz
+coulombtype = PME
+rcoulomb = 1.0
+vdwtype = Cut-off
+vdw-modifier = None
+rvdw = 1.0
+DispCorr = EnerPres
+constraints = h-bonds
+constraint-algorithm = LINCS
+free-energy = yes
+couple-moltype = POPC
+couple-lambda0 = vdw-q
+couple-lambda1 = none
+couple-intramol = yes
+init-lambda = 0.5
+sc-alpha = 0.5
+sc-power = 1
+sc-sigma = 0.3
+nstdhdl = 0

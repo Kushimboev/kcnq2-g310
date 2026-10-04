@@ -1,0 +1,39 @@
+run       ns    main(net SF)  indep SF_low  indep gate   (first 20 ns discarded)
+AN_r1     280.0    +1           +2            +1
+AN_r2     280.0    +0           +0            +1
+KN_r1     280.0    +1           +0            +2
+K10_r1    280.0    +2           +0            +6
+A9_r1     280.0    +7           +7            +7
+ANE_r1    280.0    +5           +5            +6
+ANE_r2    280.0    +5           +5            +5
+ANE_r3    104.5    +2           +2            +2
+KNE_r1    280.0    +8           +9            +9
+KNE_r2    273.3    +3           +3            +5
+
+MATCHED PAIRS (as in the paper, Fig 6A): AN r1/r2 + KN r1 vs ANE r1/r2/r3 + KNE r1/r2: ECC 2/840.0 ns vs full 23/1217.8 ns
+   main (net SF charge)  : 2/840.0 vs 23/1217.8 -> ratio 0.126 (0.014-0.510), p = 3.24e-04, suppression x7.9
+   indep SF_low          : 2/840.0 vs 24/1217.8 -> ratio 0.121 (0.014-0.487), p = 2.07e-04, suppression x8.3
+   indep gate            : 4/840.0 vs 27/1217.8 -> ratio 0.215 (0.055-0.616), p = 7.65e-04, suppression x4.7
+
+all ECC runs (K10 r1 added): ECC 4/1120.0 ns vs full 23/1217.8 ns
+   main (net SF charge)  : 4/1120.0 vs 23/1217.8 -> ratio 0.189 (0.048-0.553), p = 3.41e-04, suppression x5.3
+   indep SF_low          : 2/1120.0 vs 24/1217.8 -> ratio 0.091 (0.010-0.365), p = 1.30e-05, suppression x11.0
+   indep gate            : 10/1120.0 vs 27/1217.8 -> ratio 0.403 (0.174-0.858), p = 7.84e-03, suppression x2.5
+
+sensitivity: ANE r3 (same starting frame as r1) excluded: ECC 2/840.0 ns vs full 21/1113.3 ns
+   main (net SF charge)  : 2/840.0 vs 21/1113.3 -> ratio 0.126 (0.014-0.516), p = 3.93e-04, suppression x7.9
+   indep SF_low          : 2/840.0 vs 22/1113.3 -> ratio 0.120 (0.014-0.490), p = 2.43e-04, suppression x8.3
+   indep gate            : 4/840.0 vs 25/1113.3 -> ratio 0.212 (0.054-0.614), p = 7.91e-04, suppression x4.7
+
+KCNQ2 only: AN r1/r2 vs ANE r1/r2/r3: ECC 1/560.0 ns vs full 12/664.5 ns
+   main (net SF charge)  : 1/560.0 vs 12/664.5 -> ratio 0.099 (0.002-0.668), p = 4.23e-03, suppression x10.1
+   indep SF_low          : 2/560.0 vs 12/664.5 -> ratio 0.198 (0.021-0.888), p = 1.49e-02, suppression x5.1
+   indep gate            : 2/560.0 vs 13/664.5 -> ratio 0.183 (0.020-0.806), p = 9.20e-03, suppression x5.5
+
+KCNQ1 only: KN r1 vs KNE r1/r2: ECC 1/280.0 ns vs full 11/553.3 ns
+   main (net SF charge)  : 1/280.0 vs 11/553.3 -> ratio 0.180 (0.004-1.236), p = 5.19e-02, suppression x5.6
+   indep SF_low          : 0/280.0 vs 12/553.3 -> ratio 0 (0-0.711), p = 7.34e-03
+   indep gate            : 2/280.0 vs 14/553.3 -> ratio 0.282 (0.031-1.229), p = 5.69e-02, suppression x3.5
+
+KCNQ1 benchmark (KNE r1+r2, first 20 ns discarded): 11 net crossings / 553.3 ns -> G = 5.64 pS (95 % 2.81-10.09)
+panel C KCNQ2: A9 7/280.0 ns = 25.0/us vs ANE 12/664.5 ns = 18.1/us

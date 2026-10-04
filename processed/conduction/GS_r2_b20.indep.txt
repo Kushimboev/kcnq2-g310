@@ -1,0 +1,13 @@
+#### GS_r2_b20: 28001 frames, 280.0 ns, Lz 8.954 nm, V 565 mV, gate plane z -2.19 nm, d1/d2 8.10/9.03 A
+  net crossings gate          : free +3  KSF +0  total +3   (G_free 3.04 pS, G_all 3.04 pS)
+  net crossings SF_low(-0.8)  : free +2  KSF +0  total +2   (G_free 2.03 pS, G_all 2.03 pS)
+  net crossings SF_mid(0)     : free +2  KSF +0  total +2   (G_free 2.03 pS, G_all 2.03 pS)
+  net crossings SF_top(+0.45) : free +2  KSF +0  total +2   (G_free 2.03 pS, G_all 2.03 pS)
+  exits to OUT(z>+1.2) after SF: free 1 (FULL IN->CAV->SF->OUT in window: 0; pre-positioned/partial: 1), KSF 1
+     t_out   28.55 ns  ion  139 KSF  start=other full=False  t_leftIN=None
+     t_out  224.86 ns  ion    1 free  start=SF    full=False  t_leftIN=None
+  G(full-only) = 0.00 pS
+  SF occupancy: first 5 ns 2.01, 5-50 ns 2.00, 50 ns-end 2.01; cavity: first 5 ns 0.00, rest 0.11
+  ions in SF/CAV at t=0: [(1, 'SF', -0.02), (43, 'SF', -0.6)]
+  SF_mid free net per 50-ns block: [0, 0, 0, 1, 1, 0]
+  gate  free net per 50-ns block: [0, 0, 1, 0, 1, 1]

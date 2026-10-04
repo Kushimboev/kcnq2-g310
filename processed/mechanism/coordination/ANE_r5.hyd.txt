@@ -1,0 +1,1 @@
+ANE_r5	frames_rows=10821	gate_plane_samples=248	nW35_gate=6.31±0.73	nW30_gate=5.26±0.91	nOG_gate=0.00±0.00	nProtO_gate=0.13±0.35	bulk_nW35=6.78±1.01 (n 49513)

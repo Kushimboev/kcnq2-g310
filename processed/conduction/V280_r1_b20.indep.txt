@@ -1,0 +1,13 @@
+#### V280_r1_b20: 28001 frames, 280.0 ns, Lz 8.997 nm, V 282 mV, gate plane z -2.17 nm, d1/d2 8.27/8.99 A
+  net crossings gate          : free +1  KSF +0  total +1   (G_free 2.03 pS, G_all 2.03 pS)
+  net crossings SF_low(-0.8)  : free +2  KSF +0  total +2   (G_free 4.06 pS, G_all 4.06 pS)
+  net crossings SF_mid(0)     : free +1  KSF +0  total +1   (G_free 2.03 pS, G_all 2.03 pS)
+  net crossings SF_top(+0.45) : free +0  KSF +0  total +0   (G_free 0.00 pS, G_all 0.00 pS)
+  exits to OUT(z>+1.2) after SF: free 2 (FULL IN->CAV->SF->OUT in window: 0; pre-positioned/partial: 2), KSF 0
+     t_out   44.67 ns  ion   89 free  start=SF    full=False  t_leftIN=None
+     t_out  178.07 ns  ion  104 free  start=SF    full=False  t_leftIN=None
+  G(full-only) = 0.00 pS
+  SF occupancy: first 5 ns 2.25, 5-50 ns 2.27, 50 ns-end 2.40; cavity: first 5 ns 0.30, rest 0.09
+  ions in SF/CAV at t=0: [(27, 'CAV', -0.88), (89, 'SF', 0.05), (104, 'SF', -0.33)]
+  SF_mid free net per 50-ns block: [1, 0, 0, 0, 0, 0]
+  gate  free net per 50-ns block: [1, 0, 0, 0, 0, 0]

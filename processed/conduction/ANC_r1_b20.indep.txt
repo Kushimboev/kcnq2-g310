@@ -1,0 +1,12 @@
+#### ANC_r1_b20: 28001 frames, 280.0 ns, Lz 9.014 nm, V 565 mV, gate plane z -2.18 nm, d1/d2 7.66/7.80 A
+  net crossings gate          : free +0  KSF +0  total +0   (G_free 0.00 pS, G_all 0.00 pS)
+  net crossings SF_low(-0.8)  : free +1  KSF +0  total +1   (G_free 1.01 pS, G_all 1.01 pS)
+  net crossings SF_mid(0)     : free +0  KSF +0  total +0   (G_free 0.00 pS, G_all 0.00 pS)
+  net crossings SF_top(+0.45) : free +3  KSF +1  total +4   (G_free 3.04 pS, G_all 4.05 pS)
+  exits to OUT(z>+1.2) after SF: free 0 (FULL IN->CAV->SF->OUT in window: 0; pre-positioned/partial: 0), KSF 1
+     t_out  199.37 ns  ion  139 KSF  start=SF    full=False  t_leftIN=None
+  G(full-only) = 0.00 pS
+  SF occupancy: first 5 ns 2.46, 5-50 ns 2.08, 50 ns-end 2.10; cavity: first 5 ns 0.01, rest 0.04
+  ions in SF/CAV at t=0: [(1, 'SF', -0.3), (43, 'CAV', -0.85), (139, 'SF', 0.08)]
+  SF_mid free net per 50-ns block: [0, 0, 0, 0, -1, 1]
+  gate  free net per 50-ns block: [0, 0, 0, 0, 0, 0]

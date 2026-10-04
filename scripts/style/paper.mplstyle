@@ -1,0 +1,57 @@
+# Figure style of the manuscript; loaded by every figure script.
+#   plt.style.use("<repository>/scripts/style/paper.mplstyle")
+# Requirements: 1 column 89 mm, 2 columns 183 mm, sans-serif, vector output.
+
+font.family        : sans-serif
+font.sans-serif    : DejaVu Sans, Arial, Helvetica
+font.size          : 8
+axes.titlesize     : 9
+axes.labelsize     : 8.5
+xtick.labelsize    : 7.5
+ytick.labelsize    : 7.5
+legend.fontsize    : 7.5
+
+# --- no chartjunk: top/right spines removed ---
+axes.spines.top    : False
+axes.spines.right  : False
+axes.linewidth     : 0.6
+axes.labelpad      : 3.0
+axes.titlepad      : 6.0
+axes.titleweight   : bold
+axes.titlelocation : left
+
+# --- grid: present but unobtrusive ---
+axes.grid          : True
+axes.grid.axis     : y
+grid.color         : "#DDDDDD"
+grid.linewidth     : 0.5
+grid.alpha         : 1.0
+axes.axisbelow     : True
+
+lines.linewidth    : 1.2
+lines.markersize   : 4
+lines.solid_capstyle : round
+
+xtick.direction    : out
+ytick.direction    : out
+xtick.major.width  : 0.6
+ytick.major.width  : 0.6
+xtick.major.size   : 3
+ytick.major.size   : 3
+
+legend.frameon     : False
+legend.handlelength: 1.6
+legend.borderpad   : 0.2
+legend.labelspacing: 0.35
+
+figure.dpi         : 150
+savefig.dpi        : 600
+savefig.bbox       : tight
+savefig.pad_inches : 0.04
+figure.facecolor   : white
+savefig.facecolor  : white
+
+# keep fonts as text in vector output (not converted to outlines)
+pdf.fonttype       : 42
+ps.fonttype        : 42
+svg.fonttype       : none

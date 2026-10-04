@@ -1,0 +1,34 @@
+# CHARMM36m FINAL — 4 runs x 300 ns, ~565 mV, 0.5 M KCl, POSRES_ENDS (same protocol as the Amber14sb runs)  [2026-09-27 13:40]
+# Estimator: net charge through the selectivity filter (sf_books.py, first 20 ns discarded) + independent disp_flux.py; group Analysis_min_O (filter O). Mechanism: mech_c36.py (1 frame/ns, same window).
+
+## 1. Transfer (first 20 ns discarded)
+| run | window, ns | V, mV | NET top | NET bottom | entries from the cavity | CAV→SF→OUT | pre-loaded exits | displacement N | gate N | complete transits |
+|---|---|---|---|---|---|---|---|---|---|---|
+| C36W_r1 | 280.0 | 574 | 1 | 0 | 0 | 0 | 1 | +0.06 | +0.00 | 0 |
+| C36W_r2 | 280.0 | 576 | 1 | 0 | 0 | 0 | 1 | -0.30 | +1.00 | 0 |
+| C36G_r1 | 280.0 | 552 | 0 | 0 | 0 | 0 | 0 | +0.01 | +0.00 | 0 |
+| C36G_r2 | 280.0 | 561 | 0 | 0 | 1 | 0 | 0 | -0.02 | +0.00 | 0 |
+
+## 2. Pooled, and comparison with Amber14sb (Amber14sb, same window: WT 17/1120 ns, GS 2/840 ns)
+- WT NET top: 2 / 560.0 ns -> G = 1.00 pS (95 % 0.12-3.60); expected at the Amber14sb rate 8.5 -> P(<= 2) = 9.3e-03; conditional binomial (C36m < Amber) p = 2.4e-02
+- WT NET bottom (from the cavity): 0 / 560.0 ns -> G = 0.00 pS (95 % 0.00-1.84); expected at the Amber14sb rate 8.5 -> P(<= 0) = 2.0e-04; conditional binomial (C36m < Amber) p = 1.0e-03
+- WT displacement N = -0.24 (G = -0.12 pS) · gate N = +1.00 · entries from the cavity into the filter 0 · mean V 575 mV
+- GS NET top: 0 / 560.0 ns -> G = 0.00 pS (95 % 0.00-1.90); expected at the Amber14sb rate 1.3 -> P(<= 0) = 2.6e-01; conditional binomial (C36m < Amber) p = 3.6e-01
+- GS NET bottom (from the cavity): 0 / 560.0 ns -> G = 0.00 pS (95 % 0.00-1.90); expected at the Amber14sb rate 1.3 -> P(<= 0) = 2.6e-01; conditional binomial (C36m < Amber) p = 3.6e-01
+- GS displacement N = -0.01 (G = -0.01 pS) · gate N = +0.00 · entries from the cavity into the filter 1 · mean V 556 mV
+
+## 3. Mechanism (first 20 ns discarded, 1 frame/ns; replica mean +- SE; n = 2 vs 2 -> p is descriptive only; Amber14sb: WT 4 vs GS 3)
+| run | frames | d1, Å | S310 OG from the axis, Å | gate water | cavity water | K⁺ in the cavity, % frames | K⁺ below the gate, % frames |
+|---|---|---|---|---|---|---|---|
+| C36W_r1 | 281 | 8.77 | nan | 10.07 | 22.2 | 21.4 | 8.2 |
+| C36W_r2 | 281 | 8.65 | nan | 9.75 | 22.5 | 13.2 | 6.0 |
+| C36G_r1 | 281 | 8.49 | 3.44 | 4.52 | 22.8 | 0.0 | 6.8 |
+| C36G_r2 | 281 | 8.25 | 3.23 | 4.17 | 21.2 | 2.1 | 2.1 |
+- gate water: WT 9.91 +- 0.16 vs GS 4.34 +- 0.17 (Welch p = 0.0019)
+- d1, Å: WT 8.71 +- 0.06 vs GS 8.37 +- 0.12 (Welch p = 0.17)
+- cavity water: WT 22.35 +- 0.15 vs GS 22.00 +- 0.80 (Welch p = 0.74)
+- K⁺ in the cavity, % frames: WT 17.30 +- 4.10 vs GS 1.05 +- 1.05 (Welch p = 0.14)
+- K⁺ below the gate, % frames: WT 7.10 +- 1.10 vs GS 4.45 +- 2.35 (Welch p = 0.45)
+- S310 OG from the axis: 3.33 +- 0.10 Å (Amber 3.53) · gate water GS/WT: C36m 0.44 · Amber14sb 0.54
+
+SUMMARY: C36m WT NET top/bottom 2/0 (560 ns, entries from the cavity 0, displacement -0.24; expected at the Amber14sb rate 8.5) · GS 0/0 (560 ns, entries 1) · gate water WT 9.91 vs GS 4.34 (GS/WT 0.44; Amber 0.54) · S310 OG 3.33 Å

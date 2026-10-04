@@ -1,0 +1,30 @@
+# gate_commit.py: visits to the gate plane and the fraction that continue upwards (first 20 ns excluded; WT 4 x 280 ns, G310S 3 x 280 ns)
+
+## Main definition: |z - z_G310| < 0.25 nm, gaps <= 30 ps
+ANE_r1: visits 44 | duration: mean 66 ps, median 30 ps, longest 460 ps | from below: upwards 6, back 36
+ANE_r2: visits 43 | duration: mean 88 ps, median 40 ps, longest 390 ps | from below: upwards 6, back 29
+ANE_r4: visits 41 | duration: mean 105 ps, median 30 ps, longest 620 ps | from below: upwards 5, back 31
+ANE_r5: visits 12 | duration: mean 213 ps, median 60 ps, longest 1170 ps | from below: upwards 3, back 8
+WT POOLED: visits 140 = 125/us | mean duration 97 ps | plane occupied 1.21 % of the time | arrived from below and continued upwards 20/124 = 0.161 (17.9/us)
+
+GS_r1: visits 16 | duration: mean 39 ps, median 10 ps, longest 370 ps | from below: upwards 0, back 16 | Ser-OG contacts: 51 episodes, mean 164 ps, median 50 ps, 90 % < 420 ps, longest 1210 ps
+GS_r2: visits 43 | duration: mean 53 ps, median 10 ps, longest 970 ps | from below: upwards 2, back 38 | Ser-OG contacts: 115 episodes, mean 197 ps, median 40 ps, 90 % < 498 ps, longest 3230 ps
+GS_r3: visits 23 | duration: mean 80 ps, median 10 ps, longest 660 ps | from below: upwards 0, back 23 | Ser-OG contacts: 64 episodes, mean 166 ps, median 55 ps, 90 % < 410 ps, longest 1100 ps
+GS POOLED: visits 82 = 98/us | mean duration 58 ps | plane occupied 0.57 % of the time | arrived from below and continued upwards 2/79 = 0.025 (2.4/us)
+
+Ratio of the fractions, G310S/WT = 0.16; Fisher p = 0.0021; duration (replica means) Welch p = 0.16
+
+## Sensitivity (HW nm, GAP frames): WT upwards/from below  duration mean/median ps | G310S ... | ratio of fractions, Fisher p | duration Welch p
+HW 0.15 GAP  1: WT 21/116 = 0.181  66/40 | G310S 2/33 = 0.061  56/20 | 0.33, p 0.107 | p 0.96
+HW 0.15 GAP  3: WT 20/67 = 0.299  123/80 | G310S 2/14 = 0.143  136/40 | 0.48, p 0.330 | p 0.58
+HW 0.15 GAP 10: WT 19/55 = 0.345  163/105 | G310S 2/9 = 0.222  244/165 | 0.64, p 0.706 | p 0.69
+HW 0.25 GAP  1: WT 20/186 = 0.108  58/10 | G310S 2/99 = 0.020  43/10 | 0.19, p 0.009 | p 0.24
+HW 0.25 GAP  3: WT 20/124 = 0.161  97/30 | G310S 2/79 = 0.025  58/10 | 0.16, p 0.002 | p 0.16
+HW 0.25 GAP 10: WT 19/101 = 0.188  142/50 | G310S 2/58 = 0.034  104/10 | 0.18, p 0.006 | p 0.20
+HW 0.35 GAP  1: WT 20/644 = 0.031  36/10 | G310S 2/540 = 0.004  37/10 | 0.12, p 0.000 | p 0.52
+HW 0.35 GAP  3: WT 19/468 = 0.041  56/10 | G310S 2/291 = 0.007  79/30 | 0.17, p 0.005 | p 0.15
+HW 0.35 GAP 10: WT 19/295 = 0.064  121/40 | G310S 2/158 = 0.013  189/40 | 0.20, p 0.010 | p 0.01
+
+## Note
+- The number of upward crossings does not depend on the definition; the fraction of visits that continue upwards does,
+  because a wider slab counts more visits. The excursion analysis (gate_commit_verify.py) is the one reported in Table S6.

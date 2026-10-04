@@ -1,0 +1,9 @@
+AN_r1   frames  30001/ 28001  NARROW full 8.294 b20 8.285 (sd 0.40)  WIDE full 9.093 b20 9.094
+AN_r2   frames  30001/ 28001  NARROW full 8.283 b20 8.276 (sd 0.37)  WIDE full 8.870 b20 8.865
+A9_r1   frames  30001/ 28001  NARROW full 8.941 b20 8.941 (sd 0.10)  WIDE full 9.083 b20 9.084
+ANE_r1  frames  30001/ 28001  NARROW full 8.436 b20 8.428 (sd 0.39)  WIDE full 9.253 b20 9.266
+ANE_r2  frames  30001/ 28001  NARROW full 8.355 b20 8.343 (sd 0.38)  WIDE full 9.088 b20 9.084
+ANE_r3  frames  12450/ 10450  NARROW full 8.405 b20 8.399 (sd 0.37)  WIDE full 9.043 b20 9.046
+K10_r1  frames  30001/ 28001  NARROW full 9.886 b20 9.886 (sd 0.10)  WIDE full 10.038 b20 10.038
+KNE_r1  frames  30001/ 28001  NARROW full 8.439 b20 8.445 (sd 0.38)  WIDE full 9.091 b20 9.095
+KNE_r2  frames  29330/ 27330  NARROW full 8.297 b20 8.293 (sd 0.43)  WIDE full 8.955 b20 8.962

@@ -1,0 +1,14 @@
+; full-charge Joung-Cheatham ions (no ECC scaling) -- control for the charge-scaled set
+[ moleculetype ]
+; molname       nrexcl
+CL              1
+[ atoms ]
+1        Cl         1          CL          CL       1   -1.00
+[ moleculetype ]
+K               1
+[ atoms ]
+1         K         1           K           K       1    1.00
+[ moleculetype ]
+NA              1
+[ atoms ]
+1        Na         1          NA          NA       1    1.00

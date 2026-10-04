@@ -1,0 +1,23 @@
+; KCNQ1 6V01 pore-only G245-K354 (ACE/NME) [T1 pozitiv nazorat] | Amber14sb + Lipid21 + Hui 2025 ECC 0.78 | TIP3P | 0.5 M KCl | filter -KKK- (last 3 K)
+#include "amber14sb_ecc.ff/forcefield.itp"
+#include "K1_prot_Protein_chain_A.itp"
+#include "K1_prot_Protein_chain_B.itp"
+#include "K1_prot_Protein_chain_C.itp"
+#include "K1_prot_Protein_chain_D.itp"
+#include "POPC.itp"
+#include "amber14sb_ecc.ff/tip3p.itp"
+#include "amber14sb_ecc.ff/ions.itp"
+
+[ system ]
+KCNQ1 6V01 pore-only control T1
+
+[ molecules ]
+Protein_chain_A  1
+Protein_chain_B  1
+Protein_chain_C  1
+Protein_chain_D  1
+POPC  234
+SOL  17960
+K  162
+CL  165
+K  3

@@ -1,0 +1,10 @@
+# raw trajectories and checkpoints are never committed to this repository
+*.xtc
+*.trr
+*.cpt
+*.edr
+*.log
+*_prev.cpt
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,36 @@
+;
+;	File 'prot_ref.top' was generated
+;	At date: Fri Sep 25 19:39:32 2026
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2025.2 (-:
+;	
+;	Executable:   /usr/local/gromacs-2025.2/bin/gmx
+;	Data prefix:  /usr/local/gromacs-2025.2
+;	Working dir:  <project-root>/13_conduction/build_2026-09-25_c36/WT_r2
+;	Command line:
+;	  gmx pdb2gmx -f prot_ref.pdb -o prot_ref.gro -p prot_ref.top -i posre_ref.itp -ff charmm36-jul2021 -water none -ignh -ter -chainsep id
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+#include "./charmm36-jul2021.ff/forcefield.itp"
+
+; Include chain topologies
+#include "prot_ref_Protein_chain_A.itp"
+#include "prot_ref_Protein_chain_B.itp"
+#include "prot_ref_Protein_chain_C.itp"
+#include "prot_ref_Protein_chain_D.itp"
+
+[ system ]
+; Name
+Protein
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_B     1
+Protein_chain_C     1
+Protein_chain_D     1

@@ -1,0 +1,23 @@
+; KCNQ2 8J01 pore-only G215-K319 (ACE/NME) | Amber14sb + Lipid21 + Hui 2025 ECC 0.78 | TIP3P | 0.5 M KCl | filter -KKK- (last 3 K)
+#include "amber14sb_ecc.ff/forcefield.itp"
+#include "A_prot_Protein_chain_A.itp"
+#include "A_prot_Protein_chain_B.itp"
+#include "A_prot_Protein_chain_C.itp"
+#include "A_prot_Protein_chain_D.itp"
+#include "POPC.itp"
+#include "amber14sb_ecc.ff/tip3p.itp"
+#include "amber14sb_ecc.ff/ions.itp"
+
+[ system ]
+KCNQ2 8J01 pore-only arm A
+
+[ molecules ]
+Protein_chain_A  1
+Protein_chain_B  1
+Protein_chain_C  1
+Protein_chain_D  1
+POPC  234
+SOL  14982
+K  138
+CL  137
+K  3

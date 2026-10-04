@@ -1,0 +1,27 @@
+# gate_commit_verify.py: excursions of K+ towards the gate (first 20 ns of each run excluded; axis = centre of the filter carbonyl oxygens)
+# below z <= -0.6 nm, cavity z >= +0.5 nm (relative to the G310 CA plane), lumen R < 0.6 nm; gate plane |z| < 0.25 nm
+
+ANE_r1: 280 ns | excursions from below 369 | reached the plane 30 | crossed 6, returned 24 | from the cavity downwards 0 | time in the plane: mean 86 ps, median 40 ps
+ANE_r2: 280 ns | excursions from below 287 | reached the plane 22 | crossed 6, returned 16 | from the cavity downwards 1 | time in the plane: mean 154 ps, median 105 ps
+ANE_r4: 280 ns | excursions from below 382 | reached the plane 27 | crossed 5, returned 22 | from the cavity downwards 0 | time in the plane: mean 148 ps, median 50 ps
+ANE_r5: 280 ns | excursions from below 303 | reached the plane 9 | crossed 3, returned 6 | from the cavity downwards 0 | time in the plane: mean 274 ps, median 120 ps
+WT POOLED (1120 ns): reached the plane 88 = 79/us | crossed 20 (17.9/us), returned 68 | fraction crossing 0.227 | time in the plane: mean 141 ps, median 60 ps | plane occupied 1.11 % of the time
+
+GS_r1: 280 ns | excursions from below 301 | reached the plane 7 | crossed 0, returned 7 | from the cavity downwards 0 | time in the plane: mean 76 ps, median 20 ps | Ser-OG contacts: 100 episodes, median 35, mean 78, longest 740 ps
+GS_r2: 280 ns | excursions from below 216 | reached the plane 17 | crossed 2, returned 15 | from the cavity downwards 0 | time in the plane: mean 130 ps, median 30 ps | Ser-OG contacts: 240 episodes, median 35, mean 88, longest 1570 ps
+GS_r3: 280 ns | excursions from below 231 | reached the plane 14 | crossed 0, returned 14 | from the cavity downwards 0 | time in the plane: mean 121 ps, median 15 ps | Ser-OG contacts: 133 episodes, median 30, mean 74, longest 1040 ps
+GS POOLED (840 ns): reached the plane 38 = 45/us | crossed 2 (2.4/us), returned 36 | fraction crossing 0.053 | time in the plane: mean 117 ps, median 20 ps | plane occupied 0.53 % of the time | Ser-OG contacts: median 30 ps, mean 82 ps, 90 % < 200 ps, longest 1570 ps
+
+Fraction crossing, G310S/WT = 0.23 (Fisher p = 0.0204) | rate of arrival at the plane, G310S/WT = 0.58 (conditional binomial p = 0.005) | time in the plane, Welch p = 0.26
+
+## Depth profile: excursions from below that reached z* / how many of them crossed
+   z* (nm)   WT reached (/us) crossed fraction |  G310S reached (/us) crossed fraction
+   -0.50      758 (  677)    20   0.026  |   414 (  493)     2   0.005
+   -0.40      355 (  317)    20   0.056  |   161 (  192)     2   0.012
+   -0.30      143 (  128)    20   0.140  |    64 (   76)     2   0.031
+   -0.25       89 (   79)    20   0.225  |    38 (   45)     2   0.053
+   -0.20       61 (   54)    20   0.328  |    11 (   13)     2   0.182
+   -0.10       43 (   38)    20   0.465  |     5 (    6)     2   0.400
+   +0.00       32 (   29)    20   0.625  |     2 (    2)     2   1.000
+   +0.10       21 (   19)    20   0.952  |     2 (    2)     2   1.000
+   +0.25       20 (   18)    20   1.000  |     2 (    2)     2   1.000

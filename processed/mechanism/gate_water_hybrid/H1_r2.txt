@@ -1,0 +1,1 @@
+H1_r2	n=281	t=20-300ns	d1=8.41±0.36	d2=9.20	310CA_R=4.42	OG_R=4.46	gate_water=7.78±1.60	cav_water=23.5±2.2	cav_K_mean=0.078	cav_K_frames=7.8%	below_gate_K_frames=14.9%	zg=-2.01nm

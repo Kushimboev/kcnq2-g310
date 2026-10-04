@@ -1,0 +1,19 @@
+#### KNE_r1_b20: 28001 frames, 280.0 ns, Lz 10.033 nm, V 565 mV, gate plane z -2.16 nm, d1/d2 8.42/9.08 A
+  net crossings gate          : free +9  KSF +0  total +9   (G_free 9.11 pS, G_all 9.11 pS)
+  net crossings SF_low(-0.8)  : free +9  KSF +0  total +9   (G_free 9.11 pS, G_all 9.11 pS)
+  net crossings SF_mid(0)     : free +8  KSF +0  total +8   (G_free 8.10 pS, G_all 8.10 pS)
+  net crossings SF_top(+0.45) : free +8  KSF +1  total +9   (G_free 8.10 pS, G_all 9.11 pS)
+  exits to OUT(z>+1.2) after SF: free 7 (FULL IN->CAV->SF->OUT in window: 6; pre-positioned/partial: 1), KSF 1
+     t_out  119.46 ns  ion  164 KSF  start=SF    full=False  t_leftIN=None
+     t_out  140.55 ns  ion   41 free  start=SF    full=False  t_leftIN=None
+     t_out  172.00 ns  ion   44 free  start=OUT   full=True  t_leftIN=76.51
+     t_out  200.70 ns  ion  120 free  start=OUT   full=True  t_leftIN=116.41
+     t_out  212.59 ns  ion   82 free  start=OUT   full=True  t_leftIN=125.75999999999999
+     t_out  254.22 ns  ion  115 free  start=OUT   full=True  t_leftIN=154.56
+     t_out  262.82 ns  ion   19 free  start=IN    full=True  t_leftIN=193.42
+     t_out  273.83 ns  ion  117 free  start=other full=True  t_leftIN=209.98
+  G(full-only) = 6.08 pS
+  SF occupancy: first 5 ns 2.00, 5-50 ns 2.00, 50 ns-end 2.11; cavity: first 5 ns 0.00, rest 0.46
+  ions in SF/CAV at t=0: [(41, 'SF', -0.32), (164, 'SF', 0.01)]
+  SF_mid free net per 50-ns block: [0, 0, 2, 1, 2, 3]
+  gate  free net per 50-ns block: [0, 1, 2, 2, 1, 3]

@@ -1,0 +1,5 @@
+H2_r1     window  280.0 ns  V 569.9 mV (Lz 8.991)  zg -2.18  | SF displacement N  +2.47 (G  2.48 pS)  gate N  +2.00  | complete transits up 1 (KSF 0) down 0 -> net 1 (G  1.00 pS)
+H1_r2     window  280.0 ns  V 569.5 mV (Lz 8.999)  zg -2.17  | SF displacement N  +4.97 (G  4.99 pS)  gate N  +5.00  | complete transits up 3 (KSF 0) down 0 -> net 3 (G  3.01 pS)
+H1_r1     window  280.0 ns  V 551.2 mV (Lz 8.955)  zg -2.18  | SF displacement N  +2.00 (G  2.08 pS)  gate N  +2.00  | complete transits up 0 (KSF 0) down 0 -> net 0 (G  0.00 pS)
+H2_r2     window  280.0 ns  V 560.9 mV (Lz 9.035)  zg -2.18  | SF displacement N  +5.03 (G  5.14 pS)  gate N  +5.00  | complete transits up 3 (KSF 0) down 0 -> net 3 (G  3.06 pS)
+DONE

@@ -1,0 +1,248 @@
+{
+ "WT": {
+  "ns": 1120.04,
+  "excursions": 1341,
+  "plane": 88,
+  "crossed": 20,
+  "returned": 68,
+  "down": 1,
+  "plane_per_us": 78.56862254919469,
+  "crossed_per_us": 17.85650512481697,
+  "frac": 0.22727272727272727,
+  "dwell_mean_ps": 141.36363636363637,
+  "dwell_median_ps": 60.0,
+  "plane_time_pct": 1.1106746187636158,
+  "dwell_rep_means": [
+   86.0,
+   154.0909090909091,
+   148.14814814814815,
+   274.4444444444445
+  ],
+  "og": null,
+  "reach": {
+   "-0.5": [
+    758,
+    20
+   ],
+   "-0.4": [
+    355,
+    20
+   ],
+   "-0.3": [
+    143,
+    20
+   ],
+   "-0.25": [
+    89,
+    20
+   ],
+   "-0.2": [
+    61,
+    20
+   ],
+   "-0.1": [
+    43,
+    20
+   ],
+   "0.0": [
+    32,
+    20
+   ],
+   "0.1": [
+    21,
+    20
+   ],
+   "0.25": [
+    20,
+    20
+   ]
+  },
+  "per": [
+   {
+    "run": "ANE_r1",
+    "ns": 280.01,
+    "excursions": 369,
+    "plane": 30,
+    "crossed": 6,
+    "returned": 24,
+    "crossed_all": 6,
+    "down": 0,
+    "dwell_mean_ps": 86.0,
+    "dwell_median_ps": 40.0,
+    "og_n": 0,
+    "og_median_ps": null,
+    "og_mean_ps": null,
+    "og_max_ps": null
+   },
+   {
+    "run": "ANE_r2",
+    "ns": 280.01,
+    "excursions": 287,
+    "plane": 22,
+    "crossed": 6,
+    "returned": 16,
+    "crossed_all": 6,
+    "down": 1,
+    "dwell_mean_ps": 154.0909090909091,
+    "dwell_median_ps": 105.00000000000001,
+    "og_n": 0,
+    "og_median_ps": null,
+    "og_mean_ps": null,
+    "og_max_ps": null
+   },
+   {
+    "run": "ANE_r4",
+    "ns": 280.01,
+    "excursions": 382,
+    "plane": 27,
+    "crossed": 5,
+    "returned": 22,
+    "crossed_all": 5,
+    "down": 0,
+    "dwell_mean_ps": 148.14814814814815,
+    "dwell_median_ps": 50.0,
+    "og_n": 0,
+    "og_median_ps": null,
+    "og_mean_ps": null,
+    "og_max_ps": null
+   },
+   {
+    "run": "ANE_r5",
+    "ns": 280.01,
+    "excursions": 303,
+    "plane": 9,
+    "crossed": 3,
+    "returned": 6,
+    "crossed_all": 3,
+    "down": 0,
+    "dwell_mean_ps": 274.4444444444445,
+    "dwell_median_ps": 120.0,
+    "og_n": 0,
+    "og_median_ps": null,
+    "og_mean_ps": null,
+    "og_max_ps": null
+   }
+  ]
+ },
+ "GS": {
+  "ns": 840.03,
+  "excursions": 748,
+  "plane": 38,
+  "crossed": 2,
+  "returned": 36,
+  "down": 0,
+  "plane_per_us": 45.23647964953633,
+  "crossed_per_us": 2.3808673499755963,
+  "frac": 0.05263157894736842,
+  "dwell_mean_ps": 116.57894736842104,
+  "dwell_median_ps": 20.0,
+  "plane_time_pct": 0.5273621180195945,
+  "dwell_rep_means": [
+   75.71428571428572,
+   130.0,
+   120.71428571428574
+  ],
+  "og": {
+   "n": 473,
+   "median_ps": 30.0,
+   "mean_ps": 82.11416490486258,
+   "p90_ps": 200.0,
+   "max_ps": 1570.0
+  },
+  "reach": {
+   "-0.5": [
+    414,
+    2
+   ],
+   "-0.4": [
+    161,
+    2
+   ],
+   "-0.3": [
+    64,
+    2
+   ],
+   "-0.25": [
+    38,
+    2
+   ],
+   "-0.2": [
+    11,
+    2
+   ],
+   "-0.1": [
+    5,
+    2
+   ],
+   "0.0": [
+    2,
+    2
+   ],
+   "0.1": [
+    2,
+    2
+   ],
+   "0.25": [
+    2,
+    2
+   ]
+  },
+  "per": [
+   {
+    "run": "GS_r1",
+    "ns": 280.01,
+    "excursions": 301,
+    "plane": 7,
+    "crossed": 0,
+    "returned": 7,
+    "crossed_all": 0,
+    "down": 0,
+    "dwell_mean_ps": 75.71428571428572,
+    "dwell_median_ps": 20.0,
+    "og_n": 100,
+    "og_median_ps": 35.0,
+    "og_mean_ps": 78.0,
+    "og_max_ps": 740.0
+   },
+   {
+    "run": "GS_r2",
+    "ns": 280.01,
+    "excursions": 216,
+    "plane": 17,
+    "crossed": 2,
+    "returned": 15,
+    "crossed_all": 2,
+    "down": 0,
+    "dwell_mean_ps": 130.0,
+    "dwell_median_ps": 30.0,
+    "og_n": 240,
+    "og_median_ps": 35.0,
+    "og_mean_ps": 88.5,
+    "og_max_ps": 1570.0
+   },
+   {
+    "run": "GS_r3",
+    "ns": 280.01,
+    "excursions": 231,
+    "plane": 14,
+    "crossed": 0,
+    "returned": 14,
+    "crossed_all": 0,
+    "down": 0,
+    "dwell_mean_ps": 120.71428571428574,
+    "dwell_median_ps": 15.0,
+    "og_n": 133,
+    "og_median_ps": 30.0,
+    "og_mean_ps": 73.6842105263158,
+    "og_max_ps": 1040.0
+   }
+  ]
+ },
+ "tests": {
+  "frac_ratio": 0.23157894736842105,
+  "fisher_p": 0.020371051834190725,
+  "dwell_welch_p": 0.255005426950851,
+  "arrival_ratio": 0.5757575757575757,
+  "arrival_p": 0.004592792935398314
+ }
+}

@@ -1,0 +1,16 @@
+#### H1_r2_b20: 28001 frames, 280.0 ns, Lz 8.999 nm, V 565 mV, gate plane z -2.17 nm, d1/d2 8.37/9.18 A
+  net crossings gate          : free +6  KSF +0  total +6   (G_free 6.08 pS, G_all 6.08 pS)
+  net crossings SF_low(-0.8)  : free +5  KSF +0  total +5   (G_free 5.06 pS, G_all 5.06 pS)
+  net crossings SF_mid(0)     : free +6  KSF +0  total +6   (G_free 6.08 pS, G_all 6.08 pS)
+  net crossings SF_top(+0.45) : free -2  KSF +0  total -2   (G_free -2.03 pS, G_all -2.03 pS)
+  exits to OUT(z>+1.2) after SF: free 5 (FULL IN->CAV->SF->OUT in window: 3; pre-positioned/partial: 2), KSF 0
+     t_out   93.51 ns  ion    1 free  start=SF    full=False  t_leftIN=None
+     t_out  150.86 ns  ion   43 free  start=SF    full=False  t_leftIN=None
+     t_out  167.96 ns  ion  115 free  start=IN    full=True  t_leftIN=31.83
+     t_out  225.29 ns  ion    4 free  start=IN    full=True  t_leftIN=81.92
+     t_out  249.76 ns  ion   96 free  start=OUT   full=True  t_leftIN=141.17
+  G(full-only) = 3.04 pS
+  SF occupancy: first 5 ns 2.00, 5-50 ns 2.22, 50 ns-end 2.10; cavity: first 5 ns 0.00, rest 0.16
+  ions in SF/CAV at t=0: [(1, 'SF', 0.06), (43, 'SF', -0.32)]
+  SF_mid free net per 50-ns block: [0, 1, 0, 3, 1, 1]
+  gate  free net per 50-ns block: [1, 1, 1, 2, 0, 1]

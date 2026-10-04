@@ -1,0 +1,29 @@
+ANE_r1    window  280.0 ns  V 569.3 mV (Lz 8.929)  zg -2.17  | SF displacement N  +6.04 (G  6.07 pS)  gate N  +6.00  | complete transits up 4 (KSF 1) down 0 -> net 4 (G  4.02 pS)
+ANE_r2    window  280.0 ns  V 582.4 mV (Lz 9.008)  zg -2.17  | SF displacement N  +5.00 (G  4.91 pS)  gate N  +5.00  | complete transits up 3 (KSF 0) down 0 -> net 3 (G  2.95 pS)
+ANE_r4    window  280.0 ns  V 561.4 mV (Lz 8.890)  zg -2.18  | SF displacement N  +4.96 (G  5.06 pS)  gate N  +5.00  | complete transits up 3 (KSF 0) down 0 -> net 3 (G  3.06 pS)
+ANE_r5    window  280.0 ns  V 557.2 mV (Lz 9.002)  zg -2.19  | SF displacement N  +3.68 (G  3.78 pS)  gate N  +3.00  | complete transits up 2 (KSF 0) down 0 -> net 2 (G  2.05 pS)
+GS_r1     window  280.0 ns  V 549.3 mV (Lz 8.921)  zg -2.18  | SF displacement N  +0.33 (G  0.35 pS)  gate N  +0.00  | complete transits up 0 (KSF 0) down 0 -> net 0 (G  0.00 pS)
+GS_r2     window  280.0 ns  V 567.0 mV (Lz 8.954)  zg -2.19  | SF displacement N  +2.26 (G  2.28 pS)  gate N  +2.00  | complete transits up 0 (KSF 0) down 0 -> net 0 (G  0.00 pS)
+GS_r3     window  280.0 ns  V 559.7 mV (Lz 8.961)  zg -2.20  | SF displacement N  +0.07 (G  0.07 pS)  gate N  +0.00  | complete transits up 0 (KSF 0) down 0 -> net 0 (G  0.00 pS)
+CR3_r1    window  280.0 ns  V 563.8 mV (Lz 8.991)  zg -2.14  | SF displacement N  -0.88 (G -0.89 pS)  gate N  +0.00  | complete transits up 0 (KSF 0) down 0 -> net 0 (G  0.00 pS)
+CR3_r2    window  280.0 ns  V 574.1 mV (Lz 8.929)  zg -2.13  | SF displacement N  -0.01 (G -0.01 pS)  gate N  +0.00  | complete transits up 0 (KSF 0) down 0 -> net 0 (G  0.00 pS)
+ANC_r1    window  280.0 ns  V 571.7 mV (Lz 9.014)  zg -2.18  | SF displacement N  +0.95 (G  0.95 pS)  gate N  +0.00  | complete transits up 0 (KSF 0) down 0 -> net 0 (G  0.00 pS)
+V280_r1   window  280.0 ns  V 283.2 mV (Lz 8.997)  zg -2.17  | SF displacement N  +2.03 (G  4.10 pS)  gate N  +1.00  | complete transits up 0 (KSF 0) down 0 -> net 0 (G  0.00 pS)
+V280_r2   window  280.0 ns  V 280.9 mV (Lz 8.991)  zg -2.18  | SF displacement N  +0.10 (G  0.21 pS)  gate N  +1.00  | complete transits up 0 (KSF 0) down 0 -> net 0 (G  0.00 pS)
+V280_r3   window  280.0 ns  V 286.9 mV (Lz 8.933)  zg -2.19  | SF displacement N  +2.39 (G  4.77 pS)  gate N  +3.00  | complete transits up 0 (KSF 0) down 0 -> net 0 (G  0.00 pS)
+Traceback (most recent call last):
+  File "<project-root>/13_conduction/scripts/analysis_2026-09-26_verify/./disp_flux.py", line 15, in <module>
+    assert len(sf) == 24 and len(ga) == 4, (len(sf), len(ga))
+                             ^^^^^^^^^^^^
+AssertionError: (0, 4)
+Traceback (most recent call last):
+  File "<project-root>/13_conduction/scripts/analysis_2026-09-26_verify/./disp_flux.py", line 15, in <module>
+    assert len(sf) == 24 and len(ga) == 4, (len(sf), len(ga))
+                             ^^^^^^^^^^^^
+AssertionError: (0, 4)
+Traceback (most recent call last):
+  File "<project-root>/13_conduction/scripts/analysis_2026-09-26_verify/./disp_flux.py", line 15, in <module>
+    assert len(sf) == 24 and len(ga) == 4, (len(sf), len(ga))
+                             ^^^^^^^^^^^^
+AssertionError: (0, 4)
+DONE
