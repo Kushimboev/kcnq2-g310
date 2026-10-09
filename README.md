@@ -4,7 +4,7 @@ Input files, analysis code and processed data for the molecular dynamics study o
 through the activated KCNQ2 (Kv7.2) pore domain and the developmental and epileptic encephalopathy
 variant G310S.
 
-**Manuscript:** *(preprint DOI to be added)* · **Archived release:** *(Zenodo DOI to be added)*
+**Manuscript:** bioRxiv preprint, [doi:10.64898/2026.10.05.756556](https://doi.org/10.64898/2026.10.05.756556) · **Archived release:** *(Zenodo DOI to be added)*
 
 Everything here is derived from the simulations reported in the manuscript. Full production
 trajectories (about 9.3 GB per 300 ns run, roughly 190 GB in total) are not in this repository; they are
@@ -94,7 +94,7 @@ Analyses were run with GROMACS 2025.2, MDAnalysis 2.9.0, NumPy, SciPy and Matplo
 ## Citation
 
 Qoshimboyev S, Marimuthu P, Makhkamov M, Razzokov J. A permeable G310 constriction limits K<sup>+</sup> flux in the activated
-KCNQ2 pore and is disrupted by the encephalopathy variant G310S. *bioRxiv* (2026). *(DOI to be added when the preprint is posted)*
+KCNQ2 pore and is disrupted by the encephalopathy variant G310S. *bioRxiv* (2026). [https://doi.org/10.64898/2026.10.05.756556](https://doi.org/10.64898/2026.10.05.756556)
 
 ## Licence
 
